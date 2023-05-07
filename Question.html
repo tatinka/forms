@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Документ</title>
+</head>
+<body>
+    <h1>Страница-опросник для обладателей котиков</h1>
+    <div>
+        <label for="name">Кличка питомца</label>
+        <input type="text" id="name" />
+    </div>
+    <div>
+        <label for="contact">Имя и контакты владельца</label>
+        <input type="text" id="contact" />
+    </div>
+    <div>
+        <select>
+        <option value="cat" selected="selected">Порода питомца</option>
+        <option value="1">Канадский сфинкс</option>
+        <option value="2">Пикси-боб</option>
+        <option value="3">Бирманская</option>
+        <option value="4">Сибирская</option>
+        <option value="5">Абиссинская</option>
+        <option value="6">Сиамская</option>
+        <option value="7">Рэгдолл</option>
+        <option value="8">Мейн-кун</option>
+        <option value="9">Шотландская вислоухая</option>
+        </select>
+    </div>
+    <fieldset>
+        <legend>Питание</legend>
+    <div>
+        <label>Чем питается питомец:</label> <br />
+        сухой корм <input type="checkbox" /> <br /> влажный корм 
+        <input type="checkbox" /> <br /> натуральный корм <input type="checkbox" /> 
+    </div>
+    </fieldset>
+    <div>
+        <label>Пол питомца</label>
+    </div>
+    <div>
+        <label for="man">Самец</label> 
+        <input type="radio" name="sex" id="man" /> <br />
+        <label for="woman">Самка</label> 
+        <input type="radio" name="sex" id="woman" />
+    </div>
+    <div>
+        <textarea rows="10">Комментарий владельца</textarea>
+    </div>
+    <div>
+        <label for="photo">Приложить фото питомца</label>
+        <input type="file" id="photo" />
+    </div>
+    <div>
+        <button type="button">Сохранить</button>
+    </div>
+</body>
+</html>
